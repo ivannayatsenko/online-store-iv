@@ -1,11 +1,11 @@
 # online-store
 
-Educational web application of an online store.
+Навчальний веб-додаток у вигляді інтернет-магазину.
 
-Project status: active development with Git branching practice.
+Статус проєкту: активна розробка з використанням гілок у Git.
 
 ## Order calculation module
 
-`order_calc.py` calculates the order total: subtotal, discount for students and teachers,
-bonus discount and tax. The module was refactored (see branch `refactor/code-quality`);
-the old `p` and `p2` functions are kept as compatibility wrappers.
+`order_calc.py` розраховує загальну суму замовлення: проміжну суму, знижку для студентів та викладачів,
+додаткову знижку та податок. Модуль було рефакторовано (see branch `refactor/code-quality`);
+Старі функції `p` та `p2` збережено як обгортки для забезпечення сумісності.
